@@ -2356,4 +2356,8 @@ body.is-preload #header:after {
     #three .project .actions {
       text-align: center; }
 
+.summary {
+  display: flex;
+  align-items: center; }
+
 /*# sourceMappingURL=main.css.map */
