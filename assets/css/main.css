@@ -2306,6 +2306,7 @@ body.is-preload #header:after {
   height: 100%;
   width: 100%;
   top: 0;
+  left: 0;
   background: transparent;
   z-index: 0; }
 
@@ -2355,3 +2356,4 @@ body.is-preload #header:after {
     #three .project .actions {
       text-align: center; }
 
+/*# sourceMappingURL=main.css.map */
