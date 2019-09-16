@@ -2306,8 +2306,9 @@ body.is-preload #header:after {
   height: 100%;
   width: 100%;
   top: 0;
+  left: 0;
   background: transparent;
-  z-index: 0; }
+  z-index: 1; }
 
 #one {
   padding-bottom: 0; }
@@ -2355,3 +2356,8 @@ body.is-preload #header:after {
     #three .project .actions {
       text-align: center; }
 
+.summary {
+  display: flex;
+  align-items: center; }
+
+/*# sourceMappingURL=main.css.map */
