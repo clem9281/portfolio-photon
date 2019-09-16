@@ -99,7 +99,7 @@
       events: {
         onhover: {
           enable: true,
-          mode: "repulse"
+          mode: "grab"
         },
         onclick: {
           enable: true,
@@ -109,7 +109,7 @@
       },
       modes: {
         grab: {
-          distance: 800,
+          distance: 400,
           line_linked: {
             opacity: 1
           }

@@ -2308,7 +2308,7 @@ body.is-preload #header:after {
   top: 0;
   left: 0;
   background: transparent;
-  z-index: 0; }
+  z-index: 1; }
 
 #one {
   padding-bottom: 0; }
