@@ -1303,7 +1303,7 @@ button,
   }
 
   p {
-    margin: (_size(element-margin) * 0.5) 0 0 0;
+    margin: (_size(element-margin) * 0.5) auto;
   }
 
   .actions {
@@ -1810,4 +1810,35 @@ body.is-preload {
 .summary {
   display: flex;
   align-items: center;
+}
+.title-description {
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.2;
+  max-width: 90%;
+  margin: 1em auto;
+  color: white;
+}
+.inner {
+  // background: inherit;
+  pointer-events: none;
+}
+.actions.special,
+#title-link {
+  pointer-events: all;
+}
+.skills {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  li {
+    display: block;
+    padding: 0;
+    width: 30%;
+    font-size: 1.6em;
+    text-align: left;
+  }
 }
