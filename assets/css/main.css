@@ -1943,7 +1943,7 @@ button,
   #header h1 {
     margin: 0; }
   #header p {
-    margin: 1em 0 0 0; }
+    margin: 1em auto; }
   #header .actions {
     -moz-justify-content: center;
     -webkit-justify-content: center;
@@ -2359,5 +2359,20 @@ body.is-preload #header:after {
 .summary {
   display: flex;
   align-items: center; }
+
+.title-description {
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.2;
+  max-width: 90%;
+  margin: 1em auto;
+  color: white; }
+
+.inner {
+  pointer-events: none; }
+
+.actions.special,
+#title-link {
+  pointer-events: all; }
 
 /*# sourceMappingURL=main.css.map */

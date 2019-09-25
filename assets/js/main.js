@@ -28,7 +28,7 @@
   const particlesJSON = {
     particles: {
       number: {
-        value: 40,
+        value: 30,
         density: {
           enable: true,
           value_area: 800
@@ -53,7 +53,7 @@
         }
       },
       opacity: {
-        value: 0.5,
+        value: 0.3,
         random: false,
         anim: {
           enable: false,
@@ -76,12 +76,12 @@
         enable: true,
         distance: 300,
         color: "#ffffff",
-        opacity: 0.4,
+        opacity: 0.3,
         width: 2
       },
       move: {
         enable: true,
-        speed: 5,
+        speed: 1,
         direction: "none",
         random: false,
         straight: false,
@@ -111,14 +111,14 @@
         grab: {
           distance: 400,
           line_linked: {
-            opacity: 1
+            opacity: 0.4
           }
         },
         bubble: {
           distance: 800,
-          size: 80,
+          size: 30,
           duration: 2,
-          opacity: 0.8,
+          opacity: 0.2,
           speed: 3
         },
         repulse: {
