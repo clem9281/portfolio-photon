@@ -2375,4 +2375,18 @@ body.is-preload #header:after {
 #title-link {
   pointer-events: all; }
 
+.skills {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center; }
+  .skills li {
+    display: block;
+    padding: 0;
+    width: 30%;
+    font-size: 1.6em;
+    text-align: left; }
+
 /*# sourceMappingURL=main.css.map */
